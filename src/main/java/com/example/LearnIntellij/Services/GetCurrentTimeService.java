@@ -14,6 +14,7 @@ public class GetCurrentTimeService {
     public String getCurrentTime() {
         myDate.setDate(Calendar.getInstance().getTime());
         myDate.setDateString(myDate.getDate().toString());
+        System.out.println("cool");
         return myDate.getDateString();
     }
 }
